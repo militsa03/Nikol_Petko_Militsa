@@ -111,11 +111,11 @@ Partial Class Form1
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(204, Byte))
-        Me.Label6.Location = New System.Drawing.Point(12, 9)
+        Me.Label6.Location = New System.Drawing.Point(45, 13)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(586, 31)
+        Me.Label6.Size = New System.Drawing.Size(531, 31)
         Me.Label6.TabIndex = 10
-        Me.Label6.Text = "Преобразуване от Мегаомове в Ом и Килоом"
+        Me.Label6.Text = "Преобразуване от Мегаом - Ом - Килоом"
         '
         'TextBox3
         '
@@ -219,6 +219,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TextBox2)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form1"
         Me.Text = "ОМ"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
